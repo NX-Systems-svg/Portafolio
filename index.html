@@ -3,26 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Portafolio de Emilio Garduño, Ingeniero en Sistemas Computacionales.">
-    <title>Emilio Garduño | Ingeniero en Sistemas</title>
+    <meta name="description" content="Portafolio de Emilio Garduño - Soluciones en Hardware, Desarrollo Web y Creación de Contenido.">
+    <title>Emilio Garduño | Estudio Tecnológico</title>
     
+    <!-- Tipografía Inter -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     
+    <!-- Iconos FontAwesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     
+    <!-- Hoja de estilos -->
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
+    <!-- Navegación -->
     <nav class="navbar" id="navbar">
         <div class="container nav-container">
             <a href="#inicio" class="logo">EG.</a>
             <ul class="nav-links">
                 <li><a href="#sobre-mi">Sobre Mí</a></li>
-                <li><a href="#proyectos">Proyectos</a></li>
                 <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
                 <li><a href="#contacto">Contacto</a></li>
             </ul>
             <div class="menu-toggle" id="mobile-menu">
@@ -32,95 +36,141 @@
     </nav>
 
     <main>
+        <!-- Hero Section -->
         <section id="inicio" class="hero fade-in">
             <div class="container hero-container">
-                <p class="greeting">Hola, soy</p>
+                <p class="greeting">Ingeniería Técnica & Software</p>
                 <h1 class="name">Emilio Garduño.</h1>
-                <h2 class="role">Ingeniero en Sistemas Computacionales.</h2>
-                <p class="value-prop">Ayudo a empresas a construir soluciones de software escalables, eficientes y con un diseño impecable, transformando ideas complejas en interfaces intuitivas.</p>
+                <h2 class="role">Soluciones tecnológicas integrales.</h2>
+                <p class="value-prop">Desde el armado y optimización del hardware más exigente, hasta el desarrollo de presencia digital ultrarrápida para negocios. Todo en un solo lugar.</p>
                 <div class="hero-buttons">
-                    <a href="#proyectos" class="btn btn-primary">
-                        <i class="fas fa-layer-group"></i> Ver Proyectos
+                    <a href="#servicios" class="btn btn-primary">
+                        <i class="fas fa-compass"></i> Explorar Servicios
                     </a>
                     <a href="#contacto" class="btn btn-secondary">
-                        <i class="fas fa-paper-plane"></i> Contactar
+                        <i class="fab fa-whatsapp"></i> Hablemos
                     </a>
                 </div>
             </div>
         </section>
 
+        <!-- Sobre Mí -->
         <section id="sobre-mi" class="section bg-white reveal">
             <div class="container">
                 <h2 class="section-title">Sobre Mí</h2>
                 <div class="about-content">
                     <div class="about-text">
-                        <p>Soy un Ingeniero en Sistemas apasionado por la intersección entre la lógica del código y la experiencia del usuario. A lo largo de mi carrera, he desarrollado aplicaciones web completas enfocándome en la arquitectura limpia y el rendimiento.</p>
-                        <p>Creo firmemente que la mejor tecnología es aquella que resuelve problemas complejos de la manera más sencilla posible. Cuando no estoy programando, me dedico a investigar nuevas metodologías de desarrollo y optimización de sistemas.</p>
+                        <p>Soy un Ingeniero en Sistemas que entiende la tecnología en todas sus capas: desde la placa base hasta el navegador web. Mi objetivo es simplificar la tecnología para mis clientes.</p>
+                        <p>Ya sea que necesites una estación de trabajo de alto rendimiento para tu oficina, o una landing page que convierta visitantes en clientes, aplico los mismos principios de ingeniería: velocidad, estabilidad y diseño limpio.</p>
                     </div>
                     <div class="skills">
-                        <span class="tag">JavaScript (ES6+)</span>
-                        <span class="tag">React</span>
-                        <span class="tag">Node.js</span>
-                        <span class="tag">Python</span>
-                        <span class="tag">SQL / NoSQL</span>
-                        <span class="tag">AWS</span>
-                        <span class="tag">Git / CI/CD</span>
-                        <span class="tag">UI/UX</span>
+                        <span class="tag">Soporte Técnico</span>
+                        <span class="tag">Hardware Custom</span>
+                        <span class="tag">HTML / CSS / JS</span>
+                        <span class="tag">Sitios Estáticos</span>
+                        <span class="tag">Optimización SO</span>
+                        <span class="tag">Creación de Contenido</span>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section id="proyectos" class="section reveal">
+        <!-- Servicios (Los 3 Pilares) -->
+        <section id="servicios" class="section reveal">
+            <div class="container">
+                <h2 class="section-title">Portafolio de Oferta</h2>
+                <div class="services-grid">
+                    <!-- Pilar A -->
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-microchip"></i>
+                        </div>
+                        <h3>Hardware & Soporte</h3>
+                        <p class="service-desc">Ingeniería técnica a nivel físico e interno del sistema.</p>
+                        <ul class="service-list">
+                            <li><i class="fas fa-check"></i> Reparación y mantenimiento de PCs.</li>
+                            <li><i class="fas fa-check"></i> Armado de equipos (Gaming & Workstation).</li>
+                            <li><i class="fas fa-check"></i> Optimización avanzada de sistemas.</li>
+                        </ul>
+                    </div>
+
+                    <!-- Pilar B -->
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <h3>Desarrollo Web</h3>
+                        <p class="service-desc">Ingeniería de software enfocada en presencia digital efectiva.</p>
+                        <ul class="service-list">
+                            <li><i class="fas fa-check"></i> Creación de Sitios Web Estáticos rápidos.</li>
+                            <li><i class="fas fa-check"></i> Landing pages para negocios locales.</li>
+                            <li><i class="fas fa-check"></i> Portafolios para otros profesionales.</li>
+                        </ul>
+                    </div>
+
+                    <!-- Pilar C -->
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-video"></i>
+                        </div>
+                        <h3>Content Studio</h3>
+                        <p class="service-desc">Marca personal y divulgación tecnológica multiplataforma.</p>
+                        <ul class="service-list">
+                            <li><i class="fas fa-check"></i> Tutoriales de armado y reparaciones.</li>
+                            <li><i class="fas fa-check"></i> Reviews de hardware y periféricos.</li>
+                            <li><i class="fas fa-check"></i> Artículos sobre tecnología y mantenimiento.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Proyectos Destacados -->
+        <section id="proyectos" class="section bg-white reveal">
             <div class="container">
                 <h2 class="section-title">Proyectos Destacados</h2>
                 <div class="projects-grid">
+                    <!-- Proyecto 1: Hardware -->
                     <article class="project-card">
                         <div class="project-image">
-                            <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=600&q=80" alt="Dashboard Financiero">
+                            <!-- Placeholder de Unsplash enfocado en hardware/PC -->
+                            <img src="https://images.unsplash.com/photo-1587202372775-e229f172b9d7?auto=format&fit=crop&w=600&q=80" alt="Armado de PC Workstation">
                         </div>
                         <div class="project-info">
-                            <h3>Plataforma Fintech Core</h3>
-                            <p>Desarrollo de una arquitectura escalable para procesamiento de transacciones en tiempo real.</p>
-                            <a href="#" class="project-link">Ver caso de estudio <i class="fas fa-arrow-right"></i></a>
+                            <span class="project-category">Hardware & Soporte</span>
+                            <h3>Estación de Trabajo 3D</h3>
+                            <p>Armado personalizado y optimización de sistema para estudio de arquitectura. Reducción del 40% en tiempos de renderizado.</p>
                         </div>
                     </article>
                     
+                    <!-- Proyecto 2: Web -->
                     <article class="project-card">
                         <div class="project-image">
-                            <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=600&q=80" alt="Aplicación de Análisis de Datos">
+                            <!-- Placeholder de Unsplash enfocado en código/web -->
+                            <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=600&q=80" alt="Landing Page de Negocio">
                         </div>
                         <div class="project-info">
-                            <h3>Analytics Dashboard</h3>
-                            <p>Interfaz administrativa SPA enfocada en la visualización de grandes volúmenes de datos.</p>
-                            <a href="#" class="project-link">Ver caso de estudio <i class="fas fa-arrow-right"></i></a>
-                        </div>
-                    </article>
-
-                    <article class="project-card">
-                        <div class="project-image">
-                            <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=600&q=80" alt="Sistema E-commerce">
-                        </div>
-                        <div class="project-info">
-                            <h3>E-commerce B2B</h3>
-                            <p>Sistema integral de ventas y gestión de inventario automatizado en la nube.</p>
-                            <a href="#" class="project-link">Ver caso de estudio <i class="fas fa-arrow-right"></i></a>
+                            <span class="project-category">Desarrollo Web</span>
+                            <h3>Sitio Web Clínica Dental</h3>
+                            <p>Desarrollo de landing page estática ultrarrápida. Integración de WhatsApp para agendar citas y SEO local optimizado.</p>
                         </div>
                     </article>
                 </div>
             </div>
         </section>
 
-        <section id="contacto" class="section bg-white reveal">
+        <!-- Contacto -->
+        <section id="contacto" class="section reveal">
             <div class="container">
                 <h2 class="section-title">Ponte en contacto</h2>
                 <div class="contact-wrapper">
                     <div class="contact-info">
-                        <p>¿Tienes un proyecto en mente o buscas colaborar? Escríbeme y hablemos de cómo puedo aportar valor a tu equipo o empresa.</p>
+                        <p>¿Necesitas mantenimiento para tu equipo, cotizar un desarrollo web, o tienes una duda técnica? Escríbeme a través de tu medio preferido.</p>
                         <div class="social-links">
-                            <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
-                            <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
-                            <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                            <a href="https://wa.me/1234567890" target="_blank" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                            <a href="https://instagram.com/tu_usuario" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                            <a href="https://facebook.com/tu_usuario" target="_blank" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                            <a href="mailto:tuemail@gmail.com" aria-label="Gmail"><i class="fas fa-envelope"></i></a>
                         </div>
                     </div>
                     <form id="contact-form" class="contact-form">
@@ -130,14 +180,23 @@
                         </div>
                         <div class="input-group">
                             <label for="email">Correo electrónico</label>
-                            <input type="email" id="email" name="email" required placeholder="tu@email.com">
+                            <input type="email" id="email" name="email" required placeholder="tu@gmail.com">
+                        </div>
+                        <div class="input-group">
+                            <label for="service">Servicio de interés</label>
+                            <select id="service" name="service" required>
+                                <option value="" disabled selected>Selecciona una opción...</option>
+                                <option value="hardware">Hardware & Soporte</option>
+                                <option value="web">Desarrollo Web</option>
+                                <option value="colaboracion">Colaboración / Redes</option>
+                            </select>
                         </div>
                         <div class="input-group">
                             <label for="message">Mensaje</label>
-                            <textarea id="message" name="message" rows="5" required placeholder="Cuéntame sobre tu proyecto..."></textarea>
+                            <textarea id="message" name="message" rows="4" required placeholder="¿En qué te puedo ayudar?"></textarea>
                         </div>
                         <button type="submit" class="btn btn-primary btn-block">
-                            <i class="fas fa-envelope"></i> Enviar mensaje
+                            <i class="fas fa-paper-plane"></i> Enviar consulta
                         </button>
                     </form>
                 </div>
@@ -145,12 +204,14 @@
         </section>
     </main>
 
-    <footer class="footer">
+    <!-- Footer -->
+    <footer class="footer bg-white">
         <div class="container footer-container">
             <p>&copy; <span id="year"></span> Emilio Garduño. Todos los derechos reservados.</p>
         </div>
     </footer>
 
+    <!-- Script de interactividad deferido -->
     <script src="script.js" defer></script>
 </body>
 </html>
